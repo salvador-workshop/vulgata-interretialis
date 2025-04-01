@@ -1,0 +1,74 @@
+Num	AbbrevName	LongName	ShortName
+1	Gn	Liber Genesis	Genesis
+2	Ex	Liber Exodus	Exodus
+3	Lv	Liber Leviticus	Leviticus
+4	Nm	Liber Numeri	Numeri
+5	Dt	Liber Deuteronomii	Deuteronomium
+6	Jos	Liber Josue	Josue
+7	Jdc	Liber Judicum	Judicum
+8	Rt	Liber Ruth	Ruth
+9	1Rg	Liber Primus Regum	Regum I
+10	2Rg	Liber Secundus Regum	Regum II
+11	3Rg	Liber Tertius Regum	Regum III
+12	4Rg	Liber Quartus Regum	Regum IV
+13	1Par	Liber Primus Paralipomenon	Paralipomenon I
+14	2Par	Liber Secundus Paralipomenon	Paralipomenon II
+15	Esr	Liber Esdr�	Esdr�
+16	Neh	Liber Nehemi�	Nehemi�
+17	Tob	Liber Tobi�	Tobi�
+18	Jdt	Liber Judith	Judith
+19	Est	Liber Esther	Esther
+20	Job	Liber Job	Job
+21	Ps	Liber Psalmorum	Psalmi
+22	Pr	Liber Proverbiorum	Proverbia
+23	Ecl	Liber Ecclesiastes	Ecclesiastes
+24	Ct	Canticum Canticorum Salomonis	Canticum Canticorum
+25	Sap	Liber Sapienti�	Sapientia
+26	Sir	Ecclesiasticus Jesu, Filii Sirach	Ecclesiasticus
+27	Is	Prophetia Isai�	Isaias
+28	Jr	Prophetia Jeremi�	Jeremias
+29	Lam	Lamentationes Jeremi� Prophet�	Lamentationes
+30	Bar	Prophetia Baruch	Baruch
+31	Ez	Prophetia Ezechielis	Ezechiel
+32	Dn	Prophetia Danielis	Daniel
+33	Os	Prophetia Osee	Osee
+34	Joel	Prophetia Jo�l	Jo�l
+35	Am	Prophetia Amos	Amos
+36	Abd	Prophetia Abdi�	Abdias
+37	Jon	Prophetia Jon�	Jonas
+38	Mch	Prophetia Mich��	Mich�a
+39	Nah	Prophetia Nahum	Nahum
+40	Hab	Prophetia Habacuc	Habacuc
+41	Soph	Prophetia Sophoni�	Sophonias
+42	Agg	Prophetia Agg�i	Agg�us
+43	Zach	Prophetia Zachari�	Zacharias
+44	Mal	Prophetia Malachi�	Malachias
+45	1Mcc	Liber I Machab�orum	Machab�orum I
+46	2Mcc	Liber II Machab�orum	Machab�orum II
+47	Mt	Evangelium secundum Matth�um	Matth�us
+48	Mc	Evangelium secundum Marcum	Marcus
+49	Lc	Evangelium secundum Lucam	Lucas
+50	Jo	Evangelium secundum Joannem	Joannes
+51	Act	Actus Apostolorum	Actus Apostolorum
+52	Rom	Epistola B. Pauli Apostoli ad Romanos	ad Romanos
+53	1Cor	Epistola B. Pauli Apostoli ad Corinthios Prima	ad Corinthios I
+54	2Cor	Epistola B. Pauli Apostoli ad Corinthios Secunda	ad Corinthios II
+55	Gal	Epistola B. Pauli Apostoli ad Galatas	ad Galatas
+56	Eph	Epistola B. Pauli Apostoli ad Ephesios	ad Ephesios
+57	Phlp	Epistola B. Pauli Apostoli ad Philippenses	ad Philippenses
+58	Col	Epistola B. Pauli Apostoli ad Colossenses	ad Colossenses
+59	1Thes	Epistola B. Pauli Apostoli ad Thessalonicenses Prima	ad Thessalonicenses I
+60	2Thes	Epistola B. Pauli Apostoli ad Thessalonicenses Secunda	ad Thessalonicenses II
+61	1Tim	Epistola B. Pauli Apostoli ad Timotheum Prima	ad Timotheum I
+62	2Tim	Epistola B. Pauli Apostoli ad Timotheum Secunda	ad Timotheum II
+63	Tit	Epistola B. Pauli Apostoli ad Titum	ad Titum
+64	Phlm	Epistola B. Pauli Apostoli ad Philemonem	ad Philemonem
+65	Hbr	Epistola B. Pauli Apostoli ad Hebr�os	ad Hebr�os
+66	Jac	Epistola Catholica B. Jacobi Apostoli	Jacobi
+67	1Ptr	Epistola B. Petri Apostoli Prima	Petri I
+68	2Ptr	Epistola B. Petri Apostoli Secunda	Petri II
+69	1Jo	Epistola B. Joannis Apostoli Prima	Joannis I
+70	2Jo	Epistola B. Joannis Apostoli Secunda	Joannis II
+71	3Jo	Epistola B. Joannis Apostoli Tertia	Joannis III
+72	Jud	Epistola Catholica B. Jud� Apostoli	Jud�
+73	Apc	Apocalypsis B. Joannis Apostoli	Apocalypsis
