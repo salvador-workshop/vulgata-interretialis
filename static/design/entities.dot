@@ -1,0 +1,8 @@
+digraph {
+    label = "\nEntities used in\nvulgata-interretialis"
+    node [shape = box;];
+    
+    VIBook -> VulgataInterretialis [arrowhead = diamond; headlabel = "1"; taillabel = "*";];
+    VIChapter -> VIBook [arrowhead = diamond; headlabel = "1"; taillabel = "*";];
+    VIVerse -> VIChapter [arrowhead = diamond; headlabel = "1"; taillabel = "*";];
+}
