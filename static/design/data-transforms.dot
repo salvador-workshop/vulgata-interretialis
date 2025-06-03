@@ -2,14 +2,34 @@ digraph {
     label = "\nData Flow:\nvulsearch to \nvulgata-interretialis";
     node [shape = box;];
     
-    vulsearchText -> vulsearchHack [color = blue;];
-    vulsearchHack -> vulsearchAccentedText [color = red;];
+    subgraph cluster_0 {
+        label = "vulsearch";
+        vulsearchText -> vulsearchHack [color = blue;];
+        vulsearchHack -> vulsearchAccentedText [color = red;];
+    }
+    
     vulsearchAccentedText -> manualLabour [color = darkgreen;];
     manualLabour -> vulgataInterretialisText [color = mediumpurple;];
     
-    vulsearchText [label = "vulsearch Text\n(plain text)";shape = cylinder;color=blue;];
-    vulsearchHack [label = "vulsearch Hack\n(write accented output to\ntext as well as GUI)";color=red;];
-    vulsearchAccentedText [label = "vulsearch Accented Text\n(plain text)";shape = cylinder;color=darkgreen;];
-    manualLabour [label = "Manual Labour\n(formatting plain text\ninto neat TSV files)";color=mediumpurple;];
-    vulgataInterretialisText [label = "vulgata-interretialis Text\n(tab-separated values)";shape = cylinder;color=orange;];
+    subgraph cluster_1 {
+        label = "vulgata-interretialis";
+        vulgataInterretialisText -> viParser [color = orange;];
+        viParser -> viFormatter [color = teal;];
+        viFormatter -> outputHtml [color = blue;];
+        viFormatter -> outputMarkdown [color = blue;];
+        viFormatter -> outputPdf [color = blue;];
+    }
+
+    vulsearchText [label = "vulsearch Text\n(plain text)";shape = cylinder;color = blue;];
+    vulsearchHack [label = "vulsearch Hack\n(write accented output to\ntext as well as GUI)";color = red;];
+    vulsearchAccentedText [label = "vulsearch Accented Text\n(plain text)";shape = cylinder;color = darkgreen;];
+    
+    manualLabour [label = "Manual Labour\n(formatting plain text\ninto neat TSV files)";color = mediumpurple;];
+    vulgataInterretialisText [label = "vulgata-interretialis Text\n(tab-separated values)";shape = cylinder;color = orange;];
+    viParser [label = "VIParser";color = teal;];
+    viFormatter [label = "VIFormatter";color = blue;];
+    
+    outputHtml [shape=folder;label = "output/html/";color = blue;];
+    outputMarkdown [shape=folder;label = "output/md/";color = blue;];
+    outputPdf [shape=folder;label = "output/pdf/";color = blue;];
 }

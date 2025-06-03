@@ -42,3 +42,9 @@
 | subtitle | str | Subtitle |
 | tags | list | List of tags (str) |
 | text | str | Text for this verse |
+
+## VIParser
+
+| property | type | desc |
+| --- | --- | --- |
+| ... | ... | ... |
